@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Products - Ice Cream Shop</title>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    padding-top: 50px;
+  }
+  
+  .back-link {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    z-index: 100;
+  }
+  
+  .back-link:hover {
+    text-decoration: underline;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header-section {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .header-section h1 {
+    margin: 15px 0 10px 0;
+    font-size: 32px;
+  }
+  
+  .header-section p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .image-gallery img {
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .section {
+    margin-bottom: 40px;
+  }
+  
+  .section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+  }
+  
+  .services-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .service-item {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 15px;
+    border-radius: 5px;
+    line-height: 1.6;
+  }
+  
+  .flavor-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 25px;
+  }
+  
+  .flavor-card {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .flavor-card h3 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .flavor-card p {
+    line-height: 1.6;
+    color: #555;
+    font-size: 14px;
+  }
+</style>
+
+</head>
+
+<body>
+  <a href="Index.html" class="back-link"> Home</a>
+  
+  <div class="container">
+    <div class="header-section">
+      <div class="image-gallery">
+        <img src="caramelicecream.jpg" alt="Caramel Ice cream" width="300" height="250">
+        <img src="vanilla.webp" alt="Vanilla Ice cream" width="300" height="300">
+      </div>
+      <h1>Our Services</h1>
+      <p>Explore our options and find your new favourite flavour</p>
+    </div>
+    
+    <div class="section">
+      <h2>Core Online Services</h2>
+      <div class="services-list">
+        <div class="service-item">Online ordering & home delivery (same-day / scheduled)</div>
+        <div class="service-item">Nationwide shipping with dry ice or insulated packaging</div>
+        <div class="service-item">Pickup / click-and-collect from a kitchen or partner store</div>
+        <div class="service-item">Custom flavor selection (build your own box)</div>
+        <div class="service-item">Bulk orders for families or events</div>
+      </div>
+    </div>
+    
+    <div class="section">
+      <h2>Premium Offerings</h2>
+      <div class="services-list">
+        <div class="service-item">
+          <strong>Custom Ice Cream Boxes</strong><br>
+          Build your own box by selecting your favorite flavors or trying something new. Perfect for families, parties, or serious ice cream lovers.
+        </div>
+        <div class="service-item">
+          <strong>Monthly Subscriptions</strong><br>
+          Enjoy automatic deliveries of our best-selling and exclusive flavors every month. Subscribers get early access to new releases and special member-only treats.
+        </div>
+        <div class="service-item">
+          <strong>Ice Cream Gifting</strong><br>
+          Send a delicious surprise to friends, family, or coworkers. Add a personalized message and let us handle the rest.
+        </div>
+        <div class="service-item">
+          <strong>Diet-Friendly Options</strong><br>
+          We offer dairy-free, vegan, low-sugar, and gluten-free selectionsso everyone can enjoy a scoop.
+        </div>
+      </div>
+    </div>
+    
+    <div class="section">
+      <h2>Our Top Picked Flavours (20% Student Discount Available)</h2>
+      <p style="font-size: 14px; color: #555; margin-bottom: 20px;">Chosen especially by Middlesex University Students</p>
+      
+      <div class="flavor-section">
+        <div class="flavor-card">
+          <h3>Classic Vanilla Bean</h3>
+          <p>Our Classic Vanilla Bean is anything but ordinary. Made with real vanilla beans and fresh cream, this flavor delivers a smooth, rich texture and a clean, timeless taste. It's perfect on its own or paired with desserts, pies, and warm brownies.</p>
+          <p style="margin-top: 10px;">Every spoonful is creamy, comforting, and crafted to remind you why vanilla will always be a favorite.</p>
+        </div>
+        
+        <div class="flavor-card">
+          <h3>Caramel Ice Cream</h3>
+          <p>Caramel ice cream is the perfect balance of comfort and indulgencesmooth, creamy, and rich with deep caramelized sweetness that melts slowly on the tongue. Made by blending fresh cream with carefully cooked caramel, it delivers warm, buttery notes with a hint of toasted sugar that feels both nostalgic and luxurious.</p>
+          <p style="margin-top: 10px;">Offered as a signature flavor, available in pints or as part of customizable boxes. Order directly through our website, choose home delivery or subscription plans, and even send it as a gift with personalized messages.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
